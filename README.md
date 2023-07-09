@@ -131,3 +131,10 @@ Criação e configuração de servidor asterisk com webrtc em vm linux ubuntu
    Seu cliente WebRTC deve ser capaz de registrar e fazer chamadas. No entanto, se você usou certificados autoassinados, seu navegador pode não permitir a conexão e, como a tentativa não é de um URI normal fornecido pelo usuário, o usuário pode nem ser notificado de que há um problema. Você pode conseguir que o navegador aceite o certificado visitando " https://pbx.<dominio.com>:8089/ws" diretamente. 
    
    Isso geralmente resultará em um aviso do navegador e pode dar a você a oportunidade de aceitar o certificado autoassinado e/ou criar uma exceção. Se você gerou seu certificado de uma autoridade de certificação local pré-existente, também pode importar o certificado dessa autoridade de certificação para seu armazenamento confiável, mas esse procedimento está além do escopo deste documento.
+
+## Referências
+
+* https://wiki.asterisk.org/wiki/display/AST/Installing+Asterisk+From+Source
+* https://wiki.asterisk.org/wiki/display/AST/PJSIP-pjproject
+* https://wiki.asterisk.org/wiki/display/AST/Configuring+Asterisk+for+WebRTC+Clients
+* https://wiki.asterisk.org/wiki/display/AST/Configuring+res_pjsip
